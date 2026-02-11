@@ -1,0 +1,7 @@
+name = "RTHybrid Amplitude Scale Offset"
+kind = "rthybrid_amplitude_scale_offset"
+version = "0.1.0"
+description = "Computes scale/offset transforms between two membrane potential ranges"
+library = "librthybrid_amplitude_scale_offset.so"
+
+api_version = 2
