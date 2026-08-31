@@ -12,49 +12,49 @@
         static const rtsyn_abi_port_descriptor_t rtsyn_rthybrid_amplitude_scale_offset_ports[RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_COUNT] = {
             [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_MIN_1_V] =
         {
-            .name = "Min 1 (V)",
+            .name = "min_1_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_MAX_1_V] =
         {
-            .name = "Max 1 (V)",
+            .name = "max_1_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_MIN_2_V] =
         {
-            .name = "Min 2 (V)",
+            .name = "min_2_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_MAX_2_V] =
         {
-            .name = "Max 2 (V)",
+            .name = "max_2_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_SCALE_1_2] =
         {
-            .name = "Scale 1-2",
+            .name = "scale_1_to_2",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
     [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_OFFSET_1_2] =
         {
-            .name = "Offset 1-2",
+            .name = "offset_1_to_2",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
     [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_SCALE_2_1] =
         {
-            .name = "Scale 2-1",
+            .name = "scale_2_to_1",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
     [RTSYN_RTHYBRID_AMPLITUDE_SCALE_OFFSET_PORT_OFFSET_2_1] =
         {
-            .name = "Offset 2-1",
+            .name = "offset_2_to_1",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
