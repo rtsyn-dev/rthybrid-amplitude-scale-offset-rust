@@ -1,0 +1,60 @@
+name = "RTHybrid Amplitude Scale Offset"
+        description = "Computes scale and offset coefficients between two voltage ranges."
+
+
+[[indicators]]
+name = "min1"
+label = "Min1"
+target = "state"
+state_id = 0
+value_type = "f64"
+
+[[indicators]]
+name = "max1"
+label = "Max1"
+target = "state"
+state_id = 1
+value_type = "f64"
+
+[[indicators]]
+name = "min2"
+label = "Min2"
+target = "state"
+state_id = 2
+value_type = "f64"
+
+[[indicators]]
+name = "max2"
+label = "Max2"
+target = "state"
+state_id = 3
+value_type = "f64"
+
+[[indicators]]
+name = "s12"
+label = "S12"
+target = "state"
+state_id = 4
+value_type = "f64"
+
+[[indicators]]
+name = "o12"
+label = "O12"
+target = "state"
+state_id = 5
+value_type = "f64"
+
+[[indicators]]
+name = "s21"
+label = "S21"
+target = "state"
+state_id = 6
+value_type = "f64"
+
+[[indicators]]
+name = "o21"
+label = "O21"
+target = "state"
+state_id = 7
+value_type = "f64"
+
